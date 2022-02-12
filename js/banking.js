@@ -8,8 +8,8 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     // button click kre input k dhre anar jnno
     const depositInput = document.getElementById("deposit-input");
     //inputer vetrer amount dhorar jnno
-    const newdepositeAmountText = depositInput.value;
-    const newDepositAmount = parseFloat(newdepositeAmountText);
+    const newDepositeAmountText = depositInput.value;
+    const newDepositAmount = parseFloat(newDepositeAmountText);
 
     const depositTotal = document.getElementById('deposit-total');
 
@@ -20,10 +20,6 @@ document.getElementById('deposit-button').addEventListener('click', function () 
 
     depositTotal.innerText = newDepositTotal;
 
-
-    // g
-
-
-    //clear the deposit input field
+    //clear the deposit input field 
     depositInput.value = '';
 })
