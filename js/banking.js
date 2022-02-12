@@ -21,7 +21,7 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     depositTotal.innerText = newDepositTotal;
 
 
-
+    // g
 
 
     //clear the deposit input field
